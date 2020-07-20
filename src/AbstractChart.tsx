@@ -9,6 +9,7 @@ export interface AbstractChartProps {
   yAxisLabel?: string;
   yAxisSuffix?: string;
   yLabelsOffset?: number;
+  customBarColor?: string;
   yAxisInterval?: number;
   xAxisLabel?: string;
   xLabelsOffset?: number;

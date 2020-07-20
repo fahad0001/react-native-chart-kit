@@ -1,6 +1,6 @@
 {
-  "name": "react-native-chart-kit",
-  "version": "6.4.1",
+  "name": "@fahad0001/react-native-chart-kit",
+  "version": "1.0.0",
   "devDependencies": {
     "@types/react": "^16.9.38",
     "@types/react-native": "^0.62.13",
@@ -60,5 +60,20 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "description": "If you're looking to **build a website or a cross-platform mobile app** – we will be happy to help you! Send a note to clients@ui1.io and we will be in touch with you shortly.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahad0001/react-native-chart-kit.git"
+  },
+  "keywords": [
+    "chart",
+    "chart-kit"
+  ],
+  "author": "Fahad Mir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fahad0001/react-native-chart-kit/issues"
+  },
+  "homepage": "https://github.com/fahad0001/react-native-chart-kit#readme"
 }

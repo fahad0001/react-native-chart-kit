@@ -79,7 +79,7 @@ class BarChart extends AbstractChart<BarChartProps, BarChartState> {
           rx={barRadius}
           width={barWidth}
           height={(Math.abs(barHeight) / 4) * 3}
-          fill="url(#fillShadowGradient)"
+          fill={this.props.chartConfig.fillShadowGradient}
         />
       );
     });
@@ -113,7 +113,7 @@ class BarChart extends AbstractChart<BarChartProps, BarChartState> {
           y={((baseHeight - barHeight) / 4) * 3 + paddingTop}
           width={barWidth}
           height={2}
-          fill={this.props.chartConfig.color(0.6)}
+          fill={this.props.chartConfig.fillShadowGradient}
         />
       );
     });
